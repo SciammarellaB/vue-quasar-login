@@ -2,7 +2,8 @@
     <div class="row" style="display: flex; align-items: center; justify-content: center; height: 100vh">
         <div class="col-11 col-sm-10 col-md-8 col-lg-6">
             <q-card style="">
-                <q-card-section>
+                <q-card-section style="display: flex; align-items: center; padding: 20px 25px 20px 25px">
+                    <!-- <q-avatar icon="mdi-account" style="background: rgb(180, 180, 180); margin-right: 10px; color: white"/> -->
                     <div class="text-h5">Login</div>
                 </q-card-section>
                 <q-card-section style="padding: 0px 25px 0px 25px">
@@ -10,13 +11,13 @@
                         <div class="col-12 col-sm-12 col-md-12" style="margin-top: 10px">
                             <q-input outlined dense label="E-mail" v-model="acesso.email"/>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12" style="margin-top: 10px">
+                        <div class="col-12 col-sm-12 col-md-12" style="margin-top: 20px">
                             <q-input outlined dense label="Senha" type="password" v-model="acesso.senha"/>
                         </div>                      
                     </div>
                     <div class="row" style="display: flex; align-items: center; justify-content: center">
                         <div class="col-12 col-sm-12 col-md-12" style="margin-top: 10px">
-                            <a href="">Esqueceu sua senha?</a>
+                            <a href="/">Esqueceu sua senha?</a>
                         </div>
                     </div>
                 </q-card-section>
